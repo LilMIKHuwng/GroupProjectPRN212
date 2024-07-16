@@ -80,5 +80,14 @@ namespace ViewEuroMatchManagerment
             }
             LoadMatchesGrid();
         }
+
+		private void QuitButton_Click(object sender, RoutedEventArgs e)
+		{
+			var result = MessageBox.Show("Do you want to quit?", "Quit?", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+			if (result == MessageBoxResult.OK)
+			{
+				this.Close();
+			}
+		}
     }
 }

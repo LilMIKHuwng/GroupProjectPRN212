@@ -4411,24 +4411,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\obj\\",
+      "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

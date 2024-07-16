@@ -5,8 +5,87 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GroupProjectPRN212"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid Background="#f0f0f0"
+          Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
 
+        <Label Content="Euro Match Management"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="24"
+               FontWeight="Bold"
+               Grid.ColumnSpan="3"
+               Margin="0,20,0,20" />
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    Margin="20"
+                    VerticalAlignment="Top">
+            <Button x:Name="btn_Team"
+                    Content="Team"
+                    Margin="0,10,0,10"
+                    Background="#4CAF50"
+                    Foreground="White"
+                    FontSize="16"
+                    Click="btn_Team_Click" />
+            <Button x:Name="btn_PDF"
+                    Content="Export to PDF"
+                    Margin="0,10,0,10"
+                    Background="#9C27B0"
+                    Foreground="White"
+                    FontSize="16"
+                    Click="btn_PDF_Click" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="20"
+                    VerticalAlignment="Top">
+            <Button x:Name="btn_Stadium"
+                    Content="Stadium"
+                    Margin="0,10,0,10"
+                    Background="#2196F3"
+                    Foreground="White"
+                    FontSize="16"
+                    Click="btn_Stadium_Click" />
+            <Button x:Name="btn_Excel"
+                    Content="Export to Excel"
+                    Margin="0,10,0,10"
+                    Background="#FFC107"
+                    Foreground="Black"
+                    FontSize="16"
+                    Click="btn_Excel_Click" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="2"
+                    Margin="20"
+                    VerticalAlignment="Top">
+            <Button x:Name="btn_Match"
+                    Content="Match"
+                    Margin="0,10,0,10"
+                    Background="#FF9800"
+                    Foreground="White"
+                    FontSize="16"
+                    Click="btn_Match_Click" />
+            <Button x:Name="btn_Quit"
+                    Content="Quit"
+                    Margin="0,10,0,10"
+                    Background="#F44336"
+                    Foreground="White"
+                    FontSize="16"
+                    Click="btn_Quit_Click" />
+        </StackPanel>
     </Grid>
 </Window>
