@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Hoc_Ki_5\PRN212\Group_Project\ViewEuroMatchManagerment\GroupProjectPRN212\obj\Debug\net8.0-windows\
+D:\Hoc_Ki_5\PRN212\Group_Project\GroupProject212\ViewEuroMatchManagerment\obj\Debug\net8.0-windows\
 ViewEuroMatchManagerment
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Hoc_Ki_5\PRN212\Group_Project\ViewEuroMatchManagerment\GroupProjectPRN212\App.xaml
-11407045341
+D:\Hoc_Ki_5\PRN212\Group_Project\GroupProject212\ViewEuroMatchManagerment\App.xaml
+7-481484197
 
-41188066440
-2391681771598
-MainWindow.xaml;
+131969774444
+2461682206427
+CreateStadium.xaml;CreateTeam.xaml;MainWindow.xaml;StadiumView.xaml;TeamView.xaml;UpdateStadium.xaml;UpdateTeam.xaml;
 
 False
 

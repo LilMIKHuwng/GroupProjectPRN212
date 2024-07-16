@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Repositories.Models;
 
-public partial class Location
+public class Location
 {
     public int Id { get; set; }
 

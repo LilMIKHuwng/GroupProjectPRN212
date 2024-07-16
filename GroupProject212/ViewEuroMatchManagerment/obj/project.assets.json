@@ -1197,6 +1197,19 @@
         "runtime": {
           "bin/placeholder/Repositories.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -3258,11 +3271,17 @@
       "type": "project",
       "path": "../Repositories/Repositories.csproj",
       "msbuildProject": "../Repositories/Repositories.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Repositories >= 1.0.0"
+      "Repositories >= 1.0.0",
+      "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3271,11 +3290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
+      "projectUniqueName": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
       "projectName": "ViewEuroMatchManagerment",
-      "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
+      "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\obj\\",
+      "outputPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3292,8 +3311,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\Repositories\\Repositories.csproj"
+            "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj"
+            },
+            "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Services\\Services.csproj": {
+              "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Services\\Services.csproj"
             }
           }
         }

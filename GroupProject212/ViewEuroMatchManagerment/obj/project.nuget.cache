@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c5bypu+czy7+ErlocFIvRko10lMC3uic5hBS1YlXH+7UdPjFRpkUOyPI5NJZsp0sCWfDPC7hKDKLnoXYL+h2XA==",
+  "dgSpecHash": "QbGKsCXPeGbtLJkNz29CKXV1AodicGiJEhdg9hdbT0iAr2MUt8GgX4demtwp0twSUR5Nxi2DIQ3vnwQS6XQ63Q==",
   "success": true,
-  "projectFilePath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
+  "projectFilePath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
