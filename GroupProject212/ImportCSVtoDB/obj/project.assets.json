@@ -4431,34 +4431,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
+      "projectUniqueName": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
       "projectName": "ImportCSVtoDB",
-      "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\obj\\",
+      "projectPath": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ImportCSVtoDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj"
+            "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repositories.csproj"
             }
           }
         }

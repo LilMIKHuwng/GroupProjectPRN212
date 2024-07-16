@@ -1,4 +1,5 @@
-﻿using Repositories.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Repositories.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,45 +8,55 @@ using System.Threading.Tasks;
 
 namespace Repositories.Repo
 {
-	public class MatchRepo
-	{
-		private EuroMatchContext _context;
+    public class MatchRepo
+    {
+        private EuroMatchContext _context;
 
-		public IEnumerable<Match> GetAll()
-		{
-			_context = new();
-			return _context.Matches.ToList();
-		}
+        public List<Match> GetAll()
+        {
+            _context = new();
+            return _context.Matches
+                .Include(m => m.Location)
+                .Include(m => m.TeamA)
+                .Include(m => m.TeamB)
+                .ToList();
+        }
 
-		public Match GetById(int id)
-		{
-			_context = new();
-			return _context.Matches.Find(id);
-		}
+        public Match GetById(int id)
+        {
+            _context = new();
+            return _context.Matches.Find(id);
+        }
 
-		public void Add(Match match)
-		{
-			_context = new();
-			_context.Matches.Add(match);
-			_context.SaveChanges();
-		}
+        public void Add(Match match)
+        {
+            _context = new();
+            _context.Matches.Add(match);
+            _context.SaveChanges();
+        }
 
-		public void Update(Match match)
-		{
-			_context = new();
-			_context.Matches.Update(match);
-			_context.SaveChanges();
-		}
+        public void Update(Match match)
+        {
+            _context = new();
+            var existingMatch = _context.Matches.Find(match.Id);
+            if (existingMatch != null)
+            {
+                existingMatch.Attendance = match.Attendance;
+                existingMatch.LocationId = match.LocationId;
+                existingMatch.TeamAid = match.TeamAid;
+                existingMatch.TeamBid = match.TeamBid;
+                existingMatch.GoalTeamA = match.GoalTeamA;
+                existingMatch.GoalTeamB = match.GoalTeamB;
 
-		public void Delete(int id)
-		{
-			_context = new();
-			var match = _context.Matches.Find(id);
-			if (match != null)
-			{
-				_context.Matches.Remove(match);
-				_context.SaveChanges();
-			}
-		}
-	}
+                _context.SaveChanges();
+            }
+        }
+
+        public void Delete(Match match)
+        {
+            _context = new();
+            _context.Matches.Remove(match);
+            _context.SaveChanges();
+        }
+    }
 }

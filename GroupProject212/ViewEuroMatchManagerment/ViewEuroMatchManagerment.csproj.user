@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="MatchesDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MatchesManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MatchesDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MatchesManager.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

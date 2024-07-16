@@ -14,7 +14,7 @@ namespace ImportCSVtoDB
 				context.Database.Migrate();
 
 				// Read CSV file
-				var lines = File.ReadAllLines(@"D:\Hoc_Ki_5\PRN212\Group_Project\ViewEuroMatchManagerment\ImportCSVtoDB\Data\Euro_2024_Matches.csv");
+				var lines = File.ReadAllLines(@"D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\Data\Euro_2024_Matches.csv");
 
 				// Assuming the first line is the header
 				var header = lines[0].Split(',');

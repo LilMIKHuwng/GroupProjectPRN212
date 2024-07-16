@@ -1,63 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\",
+  "WorkspaceRootPath": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\repositories\\repo\\matchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repo\\matchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\repo\\locationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repo\\locationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\repo\\teamrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repo\\teamrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|d:\\fptu\\ky5\\prn211\\groupprojectprn212\\groupproject212\\repositories\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\models\\euromatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\euromatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\repositories\\repo\\matchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repo\\matchrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16D020C-5A2D-4AD9-AEF5-E414A8247828}|ImportCSVtoDB\\ImportCSVtoDB.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\importcsvtodb\\importcsvtodb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F16D020C-5A2D-4AD9-AEF5-E414A8247828}|ImportCSVtoDB\\ImportCSVtoDB.csproj|solutionrelative:importcsvtodb\\importcsvtodb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\repositories\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16D020C-5A2D-4AD9-AEF5-E414A8247828}|ImportCSVtoDB\\ImportCSVtoDB.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\importcsvtodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16D020C-5A2D-4AD9-AEF5-E414A8247828}|ImportCSVtoDB\\ImportCSVtoDB.csproj|solutionrelative:importcsvtodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\matchesdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\matchesdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\matchesmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\matchesmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\groupprojectprn212\\vieweuromatchmanagerment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\matchesmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\matchesmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\groupprojectprn212\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\repositories\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\groupprojectprn212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\matchesdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\matchesdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\vieweuromatchmanagerment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\vieweuromatchmanagerment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\repositories\\repo\\teamrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repo\\teamrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\repositories\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\repositories\\repo\\locationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repo\\locationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\vieweuromatchmanagerment\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54AC3BAD-D2FD-4C75-91F0-A35D55F2004C}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,213 +77,207 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MatchRepo.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repo\\MatchRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repo\\MatchRepo.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repo\\MatchRepo.cs",
-              "RelativeToolTip": "Repositories\\Repo\\MatchRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T09:08:16.127Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\appsettings.json",
+              "RelativeDocumentMoniker": "Repositories\\appsettings.json",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\appsettings.json",
+              "RelativeToolTip": "Repositories\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T14:35:07.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocationRepo.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repo\\LocationRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repo\\LocationRepo.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repo\\LocationRepo.cs",
-              "RelativeToolTip": "Repositories\\Repo\\LocationRepo.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAADAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T09:04:47.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TeamRepo.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repo\\TeamRepo.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repo\\TeamRepo.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repo\\TeamRepo.cs",
-              "RelativeToolTip": "Repositories\\Repo\\TeamRepo.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAwDAAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:56:30.972Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Match.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\Match.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\Match.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\Match.cs",
-              "RelativeToolTip": "Repositories\\Models\\Match.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:51:43.618Z"
+              "Title": "MatchesManager.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MatchesManager.xaml",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T04:14:19.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Location.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\Location.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\Location.cs",
-              "RelativeToolTip": "Repositories\\Models\\Location.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "ViewEuroMatchManagerment",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T02:25:51.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TeamRepo.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repo\\TeamRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repo\\TeamRepo.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repo\\TeamRepo.cs",
+              "RelativeToolTip": "Repositories\\Repo\\TeamRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:51:40.331Z"
+              "WhenOpened": "2024-07-14T02:42:03.541Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Team.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\Team.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Models\\Team.cs",
               "RelativeDocumentMoniker": "Repositories\\Models\\Team.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\Team.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Models\\Team.cs",
               "RelativeToolTip": "Repositories\\Models\\Team.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:51:32.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\appsettings.json",
-              "RelativeDocumentMoniker": "Repositories\\appsettings.json",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\appsettings.json",
-              "RelativeToolTip": "Repositories\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-12T08:43:08.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ImportCSVtoDB",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
-              "RelativeDocumentMoniker": "ImportCSVtoDB\\ImportCSVtoDB.csproj",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
-              "RelativeToolTip": "ImportCSVtoDB\\ImportCSVtoDB.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-12T08:29:24.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EuroMatchContext.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\EuroMatchContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\Models\\EuroMatchContext.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Models\\EuroMatchContext.cs",
-              "RelativeToolTip": "Repositories\\Models\\EuroMatchContext.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA3wBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:29:08.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewEuroMatchManagerment",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
-              "RelativeDocumentMoniker": "..\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
-              "RelativeToolTip": "..\\ViewEuroMatchManagerment\\GroupProjectPRN212\\ViewEuroMatchManagerment.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-12T08:25:29.878Z"
+              "WhenOpened": "2024-07-14T02:42:58.895Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Repositories.csproj",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj",
-              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj",
-              "RelativeToolTip": "Repositories\\Repositories.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-12T08:25:26.675Z"
+              "Title": "MatchesDetail.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesDetail.xaml.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MatchesDetail.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesDetail.xaml.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesDetail.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAcwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T02:26:16.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Class1.cs",
-              "RelativeDocumentMoniker": "Repositories\\Class1.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Class1.cs",
-              "RelativeToolTip": "Repositories\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "MatchRepo.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repo\\MatchRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repo\\MatchRepo.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repo\\MatchRepo.cs",
+              "RelativeToolTip": "Repositories\\Repo\\MatchRepo.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:25:19.912Z"
+              "WhenOpened": "2024-07-14T03:24:46.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\Program.cs",
-              "RelativeDocumentMoniker": "ImportCSVtoDB\\Program.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\Program.cs",
-              "RelativeToolTip": "ImportCSVtoDB\\Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwEQAAAAfAAAA",
+              "DocumentIndex": 2,
+              "Title": "Match.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\Match.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Models\\Match.cs",
+              "RelativeToolTip": "Repositories\\Models\\Match.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T03:06:51.366Z"
+              "WhenOpened": "2024-07-14T04:14:37.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatchesManager.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T03:22:55.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatchesDetail.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesDetail.xaml",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MatchesDetail.xaml",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MatchesDetail.xaml",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T02:26:12.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "Stub",
+              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T07:23:31.351Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "..\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml",
-              "RelativeToolTip": "..\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T02:37:07.364Z"
+              "Title": "LocationRepo.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repo\\LocationRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repo\\LocationRepo.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repo\\LocationRepo.cs",
+              "RelativeToolTip": "Repositories\\Repo\\LocationRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T03:18:26.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\Location.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\Repositories\\Models\\Location.cs",
+              "RelativeToolTip": "Repositories\\Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T03:18:43.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T03:59:29.724Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "..\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml.cs",
-              "RelativeToolTip": "..\\ViewEuroMatchManagerment\\GroupProjectPRN212\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\AssemblyInfo.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\AssemblyInfo.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T02:37:03.469Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 149,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-07-14T02:25:25.636Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\App.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\App.xaml.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T02:24:59.654Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\App.xaml",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\App.xaml",
+              "ToolTip": "D:\\FPTU\\Ky5\\PRN211\\GroupProjectPRN212\\GroupProject212\\ViewEuroMatchManagerment\\App.xaml",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T02:24:57.348Z"
             }
           ]
         }
