@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Hoc_Ki_5\PRN212\Group_Project\GroupProject212\ViewEuroMatchManagerment\App.xaml
-7-481484197
+91129103470
 
-15-1515905340
+17-450171162
 2461682206427
-CreateStadium.xaml;CreateTeam.xaml;MainWindow.xaml;StadiumView.xaml;TeamView.xaml;UpdateStadium.xaml;UpdateTeam.xaml;
+CreateStadium.xaml;CreateTeam.xaml;MainWindow.xaml;MatchesDetail.xaml;MatchesManager.xaml;StadiumView.xaml;TeamView.xaml;UpdateStadium.xaml;UpdateTeam.xaml;
 
 True
 

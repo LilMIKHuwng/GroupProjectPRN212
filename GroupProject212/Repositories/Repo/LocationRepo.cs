@@ -11,7 +11,7 @@ namespace Repositories.Repo
 	{
 		private EuroMatchContext _context;
 
-		public IEnumerable<Location> GetAll()
+		public List<Location> GetAll()
 		{
 			_context = new();
 			return _context.Locations.ToList();

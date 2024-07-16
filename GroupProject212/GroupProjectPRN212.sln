@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositorie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewEuroMatchManagerment", "ViewEuroMatchManagerment\ViewEuroMatchManagerment.csproj", "{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{75FDE34F-642C-4A17-A82E-E2183451B30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{75FDE34F-642C-4A17-A82E-E2183451B30D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

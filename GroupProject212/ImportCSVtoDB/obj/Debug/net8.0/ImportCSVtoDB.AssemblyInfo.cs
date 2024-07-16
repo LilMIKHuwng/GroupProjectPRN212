@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImportCSVtoDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd68598ca41a4d06258010d2af494217a9fa5ff1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c157c2892cd6a97882355e1267b467932e985a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImportCSVtoDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImportCSVtoDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

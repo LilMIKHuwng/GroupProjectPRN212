@@ -113,7 +113,8 @@ namespace GroupProjectPRN212
 
 		private void btn_Match_Click(object sender, RoutedEventArgs e)
 		{
-
+			MatchesManager match = new MatchesManager();
+			match.ShowDialog();
 		}
 
 		private void btn_PDF_Click(object sender, RoutedEventArgs e)

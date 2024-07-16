@@ -11,7 +11,7 @@ namespace Repositories.Repo
 	{
 		private EuroMatchContext _context;
 
-		public IEnumerable<Team> GetAll()
+		public List<Team> GetAll()
 		{
 			_context = new();
 			return _context.Teams.ToList();

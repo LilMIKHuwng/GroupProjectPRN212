@@ -77,7 +77,7 @@ namespace ViewEuroMatchManagerment {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ViewEuroMatchManagerment;V1.0.0.0;component/createstadium.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ViewEuroMatchManagerment;component/createstadium.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CreateStadium.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
