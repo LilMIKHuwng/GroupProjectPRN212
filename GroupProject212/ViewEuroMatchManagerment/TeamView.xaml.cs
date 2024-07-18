@@ -1,4 +1,8 @@
-﻿using Repositories.Models;
+﻿using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Math;
+using Microsoft.Win32;
+using Repositories.Models;
+using Repositories.Repo;
 using Services;
 using System;
 using System.Collections.Generic;
@@ -13,6 +17,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClosedXML.Excel;
 using ViewEuroMatchManagerment.ViewModel;
 
 namespace ViewEuroMatchManagerment
@@ -99,5 +104,48 @@ namespace ViewEuroMatchManagerment
 				this.Close();
 			}
 		}
-	}
+
+        private void btnExport_Click(object sender, RoutedEventArgs e)
+        {
+            TeamRepo _teamRepo = new TeamRepo();
+            List<Team> listTeam = _teamRepo.GetAll();
+
+            try
+            {
+                var saveFileDialog = new SaveFileDialog();
+                saveFileDialog.FileName = "TeamExport.xlsx";
+                saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    string filePath = saveFileDialog.FileName;
+
+                    var workbook = new XLWorkbook();
+
+                    // team
+                    var worksheetTeams = workbook.Worksheets.Add("Team Data");
+                    worksheetTeams.Cell(1, 1).Value = "Team ID";
+                    worksheetTeams.Cell(1, 2).Value = "Team Name";
+
+                    int row2 = 2;
+                    foreach (var team in listTeam)
+                    {
+                        worksheetTeams.Cell(row2, 1).Value = team.Id;
+                        worksheetTeams.Cell(row2, 2).Value = team.Name;
+
+                        row2++;
+                    }
+
+                  
+                    workbook.SaveAs(filePath);
+
+                    MessageBox.Show("Dữ liệu từ DataGrid đã được xuất ra file Excel thành công!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+            }
+        }
+    }
 }

@@ -13,7 +13,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ClosedXML.Excel;
 using ViewEuroMatchManagerment.ViewModel;
+using Repositories.Repo;
+using Microsoft.Win32;
 
 namespace ViewEuroMatchManagerment
 {
@@ -99,5 +102,47 @@ namespace ViewEuroMatchManagerment
 				this.Close();
 			}
 		}
-	}
+
+        private void btnExport_Click(object sender, RoutedEventArgs e)
+        {
+            LocationRepo _locationRepo = new LocationRepo();
+            List<Location> listLocation = _locationRepo.GetAll();
+
+            try
+            {
+                var saveFileDialog = new SaveFileDialog();
+                saveFileDialog.FileName = "StadiumExport.xlsx";
+                saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    string filePath = saveFileDialog.FileName;
+
+                    var workbook = new XLWorkbook();
+
+                    //location
+                    var worksheetLocation = workbook.Worksheets.Add("Stadium Data");
+                    worksheetLocation.Cell(1, 1).Value = "Stadium ID";
+                    worksheetLocation.Cell(1, 2).Value = "Stadium Name";
+
+                    int row3 = 2;
+                    foreach (var location in listLocation)
+                    {
+                        worksheetLocation.Cell(row3, 1).Value = location.Id;
+                        worksheetLocation.Cell(row3, 2).Value = location.Name;
+
+                        row3++;
+                    }
+
+                    workbook.SaveAs(filePath);
+
+                    MessageBox.Show("Dữ liệu từ DataGrid đã được xuất ra file Excel thành công!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+            }
+        }
+    }
 }
