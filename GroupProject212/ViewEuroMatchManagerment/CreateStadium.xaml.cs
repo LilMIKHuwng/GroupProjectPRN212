@@ -1,5 +1,5 @@
 ﻿using Repositories.Models;
-using Services;
+using Repositories.Repo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,12 +23,12 @@ namespace ViewEuroMatchManagerment
 	public partial class CreateStadium : Window
 	{
 		EuroMatchContext _context;
-		LocationService _stadium;
+		LocationRepo _stadium;
 		public CreateStadium()
 		{
 			InitializeComponent();
 			_context = new EuroMatchContext();
-			_stadium = new LocationService();
+			_stadium = new LocationRepo();
 		}
 		private bool ValidateInput()
 		{

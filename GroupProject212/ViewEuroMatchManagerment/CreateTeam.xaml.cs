@@ -1,5 +1,5 @@
 ﻿using Repositories.Models;
-using Services;
+using Repositories.Repo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,12 +23,12 @@ namespace ViewEuroMatchManagerment
 	public partial class CreateTeam : Window
 	{
 		EuroMatchContext _context;
-		TeamService _team;
+		TeamRepo _team;
 		public CreateTeam()
 		{
 			InitializeComponent();
 			_context = new EuroMatchContext();
-			_team = new TeamService();
+			_team = new TeamRepo();
 		}
 		private bool ValidateInput()
 		{

@@ -9,8 +9,7 @@
       "ViewEuroMatchManagerment/1.0.0": {
         "dependencies": {
           "ClosedXML": "0.102.2",
-          "Repositories": "1.0.0",
-          "Services": "1.0.0"
+          "Repositories": "1.0.0"
         },
         "runtime": {
           "ViewEuroMatchManagerment.dll": {}
@@ -1322,14 +1321,6 @@
         "runtime": {
           "Repositories.dll": {}
         }
-      },
-      "Services/1.0.0": {
-        "dependencies": {
-          "Repositories": "1.0.0"
-        },
-        "runtime": {
-          "Services.dll": {}
-        }
       }
     }
   },
@@ -2292,11 +2283,6 @@
       "hashPath": "xlparser.1.5.2.nupkg.sha512"
     },
     "Repositories/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

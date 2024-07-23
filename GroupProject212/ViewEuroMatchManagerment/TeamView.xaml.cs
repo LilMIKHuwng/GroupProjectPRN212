@@ -3,7 +3,6 @@ using DocumentFormat.OpenXml.Math;
 using Microsoft.Win32;
 using Repositories.Models;
 using Repositories.Repo;
-using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,12 +27,12 @@ namespace ViewEuroMatchManagerment
 	public partial class TeamView : Window
 	{
 		EuroMatchContext _context;
-		TeamService _team;
+		TeamRepo _team;
 		public TeamView()
 		{
 			InitializeComponent();
 			_context = new EuroMatchContext();
-			_team = new TeamService();
+			_team = new TeamRepo();
 			LoadDataToDataGridView();
 		}
 

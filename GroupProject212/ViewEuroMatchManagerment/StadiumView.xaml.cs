@@ -1,5 +1,4 @@
 ﻿using Repositories.Models;
-using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,12 +25,12 @@ namespace ViewEuroMatchManagerment
 	public partial class StadiumView : Window
 	{
 		EuroMatchContext _context;
-		LocationService _stadium;
+		LocationRepo _stadium;
 		public StadiumView()
 		{
 			InitializeComponent();
 			_context = new EuroMatchContext();
-			_stadium = new LocationService();
+			_stadium = new LocationRepo();
 			LoadDataToDataGridView();
 		}
 
