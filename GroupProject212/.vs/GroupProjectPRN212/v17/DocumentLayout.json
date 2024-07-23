@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\teamview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\createteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\createteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\teamview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\teamview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,43 +19,35 @@
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\stadiumview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\matchesmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\matchesmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\matchesmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\repositories\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\repositories\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{087AE705-EF3E-44F6-A139-5C1050DF629D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\updateteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\updateteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\updateteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\updatestadium.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\updatestadium.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\updatestadium.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\createteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\createteam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\createstadium.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\createstadium.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\createstadium.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\viewmodel\\matchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\viewmodel\\matchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\viewmodel\\matchvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\viewmodel\\teamvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\viewmodel\\teamvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\viewmodel\\teamvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\viewmodel\\locationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\viewmodel\\locationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\viewmodel\\locationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,11 +55,11 @@
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\stadiumview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\matchesdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\matchesdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\matchesdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|d:\\hoc_ki_5\\prn212\\group_project\\groupproject212\\vieweuromatchmanagerment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\vieweuromatchmanagerment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C85C54E9-0BD0-4812-9C09-C82FF3EAEB57}|ViewEuroMatchManagerment\\ViewEuroMatchManagerment.csproj|solutionrelative:vieweuromatchmanagerment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,20 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MatchesManager.xaml.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
-              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
-              "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:40:38.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\appsettings.json",
               "RelativeDocumentMoniker": "Repositories\\appsettings.json",
@@ -107,25 +94,24 @@
               "RelativeToolTip": "Repositories\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-23T03:37:47.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:37:47.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MainWindow.xaml.cs",
               "RelativeToolTip": "ViewEuroMatchManagerment\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAIgAAAAAAAAAAAAwwJQAAAAAAAAA",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAuwNwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T18:09:01.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StadiumView.xaml.cs",
               "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\StadiumView.xaml.cs",
               "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\StadiumView.xaml.cs",
@@ -133,25 +119,49 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\StadiumView.xaml.cs",
               "ViewState": "AQIAAGEAAAAAAAAAAAAwwAEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T04:07:45.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:07:45.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TeamView.xaml.cs",
               "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\TeamView.xaml.cs",
               "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\TeamView.xaml.cs",
               "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\TeamView.xaml.cs",
               "RelativeToolTip": "ViewEuroMatchManagerment\\TeamView.xaml.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAwwHgAAAAAAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwHEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T04:05:33.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "CreateTeam.xaml.cs",
+              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
+              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAqwFYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:32:15.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MatchesManager.xaml.cs",
+              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesManager.xaml.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:40:38.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UpdateStadium.xaml.cs",
               "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\UpdateStadium.xaml.cs",
               "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\UpdateStadium.xaml.cs",
@@ -159,25 +169,11 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\UpdateStadium.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:34:34.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:34:34.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateTeam.xaml.cs",
-              "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
-              "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
-              "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
-              "RelativeToolTip": "ViewEuroMatchManagerment\\CreateTeam.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:32:15.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UpdateTeam.xaml.cs",
               "DocumentMoniker": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\UpdateTeam.xaml.cs",
               "RelativeDocumentMoniker": "ViewEuroMatchManagerment\\UpdateTeam.xaml.cs",
@@ -185,8 +181,7 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\UpdateTeam.xaml.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAYwAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:32:51.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:32:51.868Z"
             },
             {
               "$type": "Document",
@@ -198,8 +193,7 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\CreateStadium.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:33:57.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:33:57.62Z"
             },
             {
               "$type": "Document",
@@ -211,8 +205,7 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\ViewModel\\MatchVm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:35:16.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:35:16.31Z"
             },
             {
               "$type": "Document",
@@ -224,8 +217,7 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\ViewModel\\TeamVm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:35:11.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:35:11.834Z"
             },
             {
               "$type": "Document",
@@ -237,8 +229,7 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\ViewModel\\LocationVm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:35:09.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:35:09.002Z"
             },
             {
               "$type": "Document",
@@ -250,8 +241,7 @@
               "RelativeToolTip": "ViewEuroMatchManagerment\\MatchesDetail.xaml.cs",
               "ViewState": "AQIAAJgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:29:10.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:29:10.079Z"
             },
             {
               "$type": "Document",
@@ -262,8 +252,7 @@
               "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\StadiumView.xaml",
               "RelativeToolTip": "ViewEuroMatchManagerment\\StadiumView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-18T04:07:21.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:07:21.474Z"
             },
             {
               "$type": "Document",
@@ -274,8 +263,7 @@
               "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\TeamView.xaml",
               "RelativeToolTip": "ViewEuroMatchManagerment\\TeamView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-18T04:07:01.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:07:01.839Z"
             },
             {
               "$type": "Document",
@@ -286,8 +274,7 @@
               "ToolTip": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ViewEuroMatchManagerment\\MainWindow.xaml",
               "RelativeToolTip": "ViewEuroMatchManagerment\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-17T18:33:49.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T18:33:49.901Z"
             }
           ]
         },

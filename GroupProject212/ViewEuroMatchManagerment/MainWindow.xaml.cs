@@ -215,6 +215,11 @@ namespace GroupProjectPRN212
 
         private void btn_Quit_Click(object sender, RoutedEventArgs e)
 		{
+			var result = MessageBox.Show("Do you want to quit?", "Quit?", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+			if (result == MessageBoxResult.OK)
+			{
+				this.Close();
+			}
 		}
 	}
 }
