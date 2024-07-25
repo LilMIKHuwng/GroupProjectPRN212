@@ -38,7 +38,7 @@ namespace GroupProjectPRN212
 				context.Database.Migrate();
 
 				// Read CSV file
-				var lines = File.ReadAllLines(@"E:\PRNgroupPJ\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\Data\Euro_2024_Matches.csv");
+				var lines = File.ReadAllLines(@"D:\Hoc_Ki_5\PRN212\Group_Project\GroupProject212\ImportCSVtoDB\Data\Euro_2024_Matches.csv");
 
 				// Assuming the first line is the header
 				var header = lines[0].Split(',');
@@ -140,7 +140,7 @@ namespace GroupProjectPRN212
             try
             {
                 var saveFileDialog = new SaveFileDialog();
-                saveFileDialog.FileName = "MatchesExport.xlsx";
+                saveFileDialog.FileName = "MatchesEuroExport.xlsx";
                 saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
 
                 if (saveFileDialog.ShowDialog() == true)
@@ -215,6 +215,11 @@ namespace GroupProjectPRN212
 
         private void btn_Quit_Click(object sender, RoutedEventArgs e)
 		{
+			var result = MessageBox.Show("Do you want to quit?", "Quit?", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+			if (result == MessageBoxResult.OK)
+			{
+				this.Close();
+			}
 		}
 	}
 }

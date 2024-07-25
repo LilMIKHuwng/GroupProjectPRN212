@@ -1,5 +1,5 @@
 ﻿using Repositories.Models;
-using Services;
+using Repositories.Repo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,19 +23,19 @@ namespace ViewEuroMatchManagerment
 	public partial class UpdateStadium : Window
 	{
 		EuroMatchContext _context;
-		LocationService _stadium;
+		LocationRepo _stadium;
 		int stadiumId;
 		public UpdateStadium(int stadiumId)
 		{
 			InitializeComponent();
 			_context = new EuroMatchContext();
-			_stadium = new LocationService();
+			_stadium = new	LocationRepo();
 			this.stadiumId = stadiumId;
 			LoadData();
 		}
 		private void LoadData()
 		{
-			var stadium = _stadium.GetbyId(stadiumId);
+			var stadium = _stadium.GetById(stadiumId);
 			txtID.Text = stadium.Id.ToString();
 			txtStadium.Text = stadium.Name.ToString();
 		}

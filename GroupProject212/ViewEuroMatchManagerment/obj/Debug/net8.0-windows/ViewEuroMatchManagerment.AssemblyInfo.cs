@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViewEuroMatchManagerment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea184c1fc8980b472bbc6838f2228f9ae196075e")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7531ad873a2b0a2b9bec4b8341dbb0391df04f2f")]
+>>>>>>> 05fab3c42c25a155a0c3d6ad0125fd699d3440f5
 [assembly: System.Reflection.AssemblyProductAttribute("ViewEuroMatchManagerment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViewEuroMatchManagerment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

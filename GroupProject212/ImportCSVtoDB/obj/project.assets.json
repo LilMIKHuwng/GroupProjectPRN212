@@ -4431,19 +4431,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PRNgroupPJ\\GroupProjectPRN212\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
+      "projectUniqueName": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
       "projectName": "ImportCSVtoDB",
-      "projectPath": "E:\\PRNgroupPJ\\GroupProjectPRN212\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\PRNgroupPJ\\GroupProjectPRN212\\GroupProject212\\ImportCSVtoDB\\obj\\",
+      "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\ImportCSVtoDB.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\ImportCSVtoDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4457,8 +4457,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\PRNgroupPJ\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repositories.csproj": {
-              "projectPath": "E:\\PRNgroupPJ\\GroupProjectPRN212\\GroupProject212\\Repositories\\Repositories.csproj"
+            "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\Hoc_Ki_5\\PRN212\\Group_Project\\GroupProject212\\Repositories\\Repositories.csproj"
             }
           }
         }
@@ -4515,7 +4515,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
