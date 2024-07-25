@@ -22,6 +22,27 @@ namespace Repositories.Repo
                 .ToList();
         }
 
+
+        public List<Match> Search(string HomeTeam, string GuestTeam)
+        {
+            _context = new();
+    
+            var listMatches = _context.Matches.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(HomeTeam))
+            {
+                listMatches = listMatches.Where(s => s.TeamA.Name.Contains(HomeTeam));
+                listMatches = listMatches.Include("TeamA");
+            }
+
+            if (!string.IsNullOrWhiteSpace(GuestTeam))
+            {
+                listMatches = listMatches.Where(s => s.TeamB.Name.Contains(GuestTeam));
+                listMatches = listMatches.Include("TeamB");
+            }
+
+            return listMatches.Include("TeamA").Include("TeamB").ToList();
+        }
         public Match GetById(int id)
         {
             _context = new();

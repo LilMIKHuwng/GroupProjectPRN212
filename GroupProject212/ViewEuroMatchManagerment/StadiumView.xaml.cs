@@ -27,6 +27,7 @@ namespace ViewEuroMatchManagerment
 	{
 		EuroMatchContext _context;
 		LocationService _stadium;
+		LocationRepo _stadiumRepo = new();
 		public StadiumView()
 		{
 			InitializeComponent();
@@ -143,6 +144,24 @@ namespace ViewEuroMatchManagerment
             {
                 MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
             }
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string locationName = LocationNameTextBox.Text;
+            List<Location> listSearchTeams = _stadiumRepo.Search(locationName);
+			List<LocationVm> listVM = new List<LocationVm>();
+			foreach (Location location in listSearchTeams)
+			{
+				LocationVm locationVm = new LocationVm()
+				{
+					Id = location.Id,
+					Stadium = location.Name
+				};
+                listVM.Add(locationVm);
+            }
+            dtgStadium.ItemsSource = null;
+            dtgStadium.ItemsSource = listVM;
         }
     }
 }

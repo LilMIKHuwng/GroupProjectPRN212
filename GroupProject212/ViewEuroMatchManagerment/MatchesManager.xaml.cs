@@ -151,9 +151,13 @@ namespace ViewEuroMatchManagerment
             }
         }
 
-      
-           
-
-        
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string homeTeam = HomeTeamTextBox.Text;  
+            string GuestTeam = GuestTeamTextBox.Text;
+            List<Match> listSearchMatches= _repoMatch.Search(homeTeam, GuestTeam);
+            ListMatchesDataGrid.ItemsSource = null;
+            ListMatchesDataGrid.ItemsSource = listSearchMatches;
+        }
     }
 }

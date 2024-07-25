@@ -29,6 +29,7 @@ namespace ViewEuroMatchManagerment
 	{
 		EuroMatchContext _context;
 		TeamService _team;
+		TeamRepo _teamRepo = new();
 		public TeamView()
 		{
 			InitializeComponent();
@@ -146,6 +147,25 @@ namespace ViewEuroMatchManagerment
             {
                 MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
             }
+        }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            string teamTitle = TeamTitleTextBox.Text;
+            List<Team> listSearchTeams = _teamRepo.Search(teamTitle);
+            List<TeamVm> listVM = new List<TeamVm>();
+			foreach (var team in listSearchTeams)
+			{
+				TeamVm teamVm = new TeamVm()
+				{
+					Id = team.Id,
+					Team = team.Name
+				};
+				listVM.Add(teamVm);
+			}
+            dtgTeam.ItemsSource = null;
+            dtgTeam.ItemsSource = listVM;
+
         }
     }
 }
