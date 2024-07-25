@@ -5,20 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ViewEuroMatchManagerment"
         mc:Ignorable="d"
-        Title="TeamView" Height="450" Width="800">
+        Title="TeamView"
+        Height="450"
+        Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
         <!-- Title -->
         <Label Content="Team Management"
-               HorizontalAlignment="Left"
+               HorizontalAlignment="Center"
                VerticalAlignment="Top"
-               Margin="289,-8,0,0"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"
+               Margin="0,10,0,10"
                FontSize="24"
                FontWeight="Bold"
                Foreground="DarkBlue" />
 
+        <!-- Search Section -->
+        <Border Background="Azure"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10,10,10,10">
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Content="Team Name:"
+                       VerticalAlignment="Center"
+                       Margin="5" />
+                <TextBox x:Name="TeamTitleTextBox"
+                         Grid.Column="1"
+                         TextAlignment="Left"
+                         Margin="5"
+                         TextWrapping="Wrap"
+                         VerticalAlignment="Center"
+                         MinWidth="150"
+                         Foreground="Blue" />
+                <Button x:Name="SearchButton"
+                        Grid.Column="2"
+                        Content="Search"
+                        VerticalAlignment="Center"
+                        Margin="5"
+                        Click="SearchButton_Click"
+                        Width="75" />
+            </Grid>
+        </Border>
+
         <!-- DataGrid -->
         <DataGrid x:Name="dtgTeam"
-                  Margin="27,86,131,45"
+                  Grid.Row="2"
+                  Grid.Column="0"
+                  Margin="10,10,10,10"
                   AutoGenerateColumns="False"
                   SelectionChanged="DataGrid_SelectionChanged"
                   Background="White"
@@ -28,75 +80,61 @@
         </DataGrid>
 
         <!-- Buttons -->
-        <Button x:Name="btnDelete"
-                Content="Delete"
-                HorizontalAlignment="Left"
-                Margin="700,218,0,0"
-                VerticalAlignment="Top"
-                Height="38"
-                Width="68"
-                Click="btnDelete_Click"
-                Background="LightCoral"
-                Foreground="White"
-                BorderBrush="DarkRed"
-                BorderThickness="2" />
-
-        <Button x:Name="btnCreate"
-                Content="Create"
-                HorizontalAlignment="Left"
-                Margin="700,80,0,0"
-                VerticalAlignment="Top"
-                Height="38"
-                Width="68"
-                Click="btnCreate_Click"
-                Background="LightGreen"
-                Foreground="White"
-                BorderBrush="DarkGreen"
-                BorderThickness="2" />
-
-        <Button x:Name="btnUpdate"
-                Content="Update"
-                HorizontalAlignment="Left"
-                Margin="700,146,0,0"
-                VerticalAlignment="Top"
-                Height="38"
-                Width="68"
-                Click="btnUpdate_Click"
-                Background="LightSkyBlue"
-                Foreground="White"
-                BorderBrush="DarkBlue"
-                BorderThickness="2" />
-
-        <!-- Labels and TextBoxes for Year Range -->
-
-        <!-- Quit Button -->
-        <Button x:Name="btnQuit"
-                Content="Quit"
-                HorizontalAlignment="Left"
-                Margin="700,294,0,0"
-                VerticalAlignment="Top"
-                Height="38"
-                Width="68"
-                Click="btnQuit_Click"
-                Background="OrangeRed"
-                Foreground="White"
-                BorderBrush="DarkRed"
-                BorderThickness="2" />
-        <Button x:Name="btnExport"
-            Content="Export"
-            HorizontalAlignment="Left"
-            Margin="702,350,0,0"
-            VerticalAlignment="Top"
-            Height="38"
-            Width="66"
-            Click="btnExport_Click"
-            Background="LightGreen"
-            Foreground="White"
-            BorderBrush="DarkGreen"
-            BorderThickness="2" />
-        <Border Background="Azure" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="29,44,0,0" VerticalAlignment="Top" Width="316"/>
-        <Label Content="Team Title" HorizontalAlignment="Left" Margin="30,48,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TeamTitleTextBox" TextAlignment="Right" HorizontalAlignment="Left" Margin="95,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Foreground="Blue"/>
-        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Margin="265,49,0,0" VerticalAlignment="Top" Click="SearchButton_Click" Height="20" Width="75"/>
+        <StackPanel Grid.Row="2"
+                    Grid.Column="1"
+                    Margin="10"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center">
+            <Button x:Name="btnCreate"
+                    Content="Create"
+                    Height="38"
+                    Width="75"
+                    Margin="0,5"
+                    Click="btnCreate_Click"
+                    Background="#4CAF50"
+                    Foreground="White"
+                    BorderBrush="#388E3C"
+                    BorderThickness="2" />
+            <Button x:Name="btnUpdate"
+                    Content="Update"
+                    Height="37"
+                    Width="75"
+                    Margin="0,5"
+                    Click="btnUpdate_Click"
+                    Background="#03A9F4"
+                    Foreground="White"
+                    BorderBrush="#0288D1"
+                    BorderThickness="2" />
+            <Button x:Name="btnDelete"
+                    Content="Delete"
+                    Height="37"
+                    Width="75"
+                    Margin="0,5"
+                    Click="btnDelete_Click"
+                    Background="#F44336"
+                    Foreground="White"
+                    BorderBrush="#D32F2F"
+                    BorderThickness="2" />
+            <Button x:Name="btnExport"
+                    Content="Export"
+                    Height="38"
+                    Width="75"
+                    Margin="0,5"
+                    Click="btnExport_Click"
+                    Background="#FFC107"
+                    Foreground="White"
+                    BorderBrush="#FFA000"
+                    BorderThickness="2" />
+            <Button x:Name="btnQuit"
+                    Content="Quit"
+                    Height="37"
+                    Width="75"
+                    Margin="0,5"
+                    Click="btnQuit_Click"
+                    Background="#FF5722"
+                    Foreground="White"
+                    BorderBrush="#E64A19"
+                    BorderThickness="2" />
+        </StackPanel>
     </Grid>
 </Window>

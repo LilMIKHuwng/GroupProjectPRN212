@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ViewEuroMatchManagerment"
         mc:Ignorable="d"
-        Title="StadiumView" Height="450" Width="800">
+        Title="StadiumView"
+        Height="450"
+        Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -30,16 +32,37 @@
                Foreground="DarkBlue" />
 
         <!-- Search Section -->
-        <Border Background="Azure" BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0" Margin="10,10,40,10">
+        <Border Background="Azure"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10,10,10,10">
             <Grid Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
-                <Label Content="Location Name" VerticalAlignment="Center" Margin="5"/>
-                <TextBox x:Name="LocationNameTextBox" Grid.Column="1" TextAlignment="Right" Margin="14,0,314,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="150" Foreground="Blue"/>
-                <Button x:Name="SearchButton" Grid.Column="1" Content="Search" VerticalAlignment="Bottom" Margin="209,0,194,5" Click="SearchButton_Click" Width="75"/>
+                <Label Content="Stadium Name:"
+                       VerticalAlignment="Center"
+                       Margin="5" />
+                <TextBox x:Name="LocationNameTextBox"
+                         Grid.Column="1"
+                         TextAlignment="Left"
+                         Margin="5"
+                         TextWrapping="Wrap"
+                         VerticalAlignment="Center"
+                         MinWidth="150"
+                         Foreground="Blue" />
+                <Button x:Name="SearchButton"
+                        Grid.Column="2"
+                        Content="Search"
+                        VerticalAlignment="Center"
+                        Margin="5"
+                        Click="SearchButton_Click"
+                        Width="75" />
             </Grid>
         </Border>
 
@@ -47,8 +70,7 @@
         <DataGrid x:Name="dtgStadium"
                   Grid.Row="2"
                   Grid.Column="0"
-                  Grid.ColumnSpan="2"
-                  Margin="10"
+                  Margin="10,10,10,10"
                   AutoGenerateColumns="False"
                   SelectionChanged="DataGrid_SelectionChanged"
                   Background="White"
@@ -58,16 +80,20 @@
         </DataGrid>
 
         <!-- Buttons -->
-        <StackPanel Grid.Row="2" Grid.Column="1" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Center">
+        <StackPanel Grid.Row="2"
+                    Grid.Column="1"
+                    Margin="10"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center">
             <Button x:Name="btnCreate"
                     Content="Create"
                     Height="38"
                     Width="75"
                     Margin="0,5"
                     Click="btnCreate_Click"
-                    Background="LightGreen"
+                    Background="#4CAF50"
                     Foreground="White"
-                    BorderBrush="DarkGreen"
+                    BorderBrush="#388E3C"
                     BorderThickness="2" />
             <Button x:Name="btnUpdate"
                     Content="Update"
@@ -75,9 +101,9 @@
                     Width="75"
                     Margin="0,5"
                     Click="btnUpdate_Click"
-                    Background="LightSkyBlue"
+                    Background="#03A9F4"
                     Foreground="White"
-                    BorderBrush="DarkBlue"
+                    BorderBrush="#0288D1"
                     BorderThickness="2" />
             <Button x:Name="btnDelete"
                     Content="Delete"
@@ -85,9 +111,9 @@
                     Width="75"
                     Margin="0,5"
                     Click="btnDelete_Click"
-                    Background="LightCoral"
+                    Background="#F44336"
                     Foreground="White"
-                    BorderBrush="DarkRed"
+                    BorderBrush="#D32F2F"
                     BorderThickness="2" />
             <Button x:Name="btnExport"
                     Content="Export"
@@ -95,9 +121,9 @@
                     Width="75"
                     Margin="0,5"
                     Click="btnExport_Click"
-                    Background="LightGreen"
+                    Background="#FFC107"
                     Foreground="White"
-                    BorderBrush="DarkGreen"
+                    BorderBrush="#FFA000"
                     BorderThickness="2" />
             <Button x:Name="btnQuit"
                     Content="Quit"
@@ -105,9 +131,9 @@
                     Width="75"
                     Margin="0,5"
                     Click="btnQuit_Click"
-                    Background="OrangeRed"
+                    Background="#FF5722"
                     Foreground="White"
-                    BorderBrush="DarkRed"
+                    BorderBrush="#E64A19"
                     BorderThickness="2" />
         </StackPanel>
     </Grid>

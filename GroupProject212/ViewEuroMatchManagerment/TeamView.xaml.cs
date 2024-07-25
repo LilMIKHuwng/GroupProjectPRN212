@@ -27,12 +27,10 @@ namespace ViewEuroMatchManagerment
 	public partial class TeamView : Window
 	{
 		EuroMatchContext _context;
-<<<<<<< HEAD
-		TeamService _team;
+
 		TeamRepo _teamRepo = new();
-=======
+
 		TeamRepo _team;
->>>>>>> 05fab3c42c25a155a0c3d6ad0125fd699d3440f5
 		public TeamView()
 		{
 			InitializeComponent();
