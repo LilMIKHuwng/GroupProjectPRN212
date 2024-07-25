@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ViewEuroMatchManagerment;
-using ClosedXML.Excel;
 using Microsoft.Win32;
 using Repositories.Repo;
 
@@ -26,8 +25,8 @@ namespace GroupProjectPRN212
 	{
 		public MainWindow()
 		{
-			ImportDataSetToDB();
-			InitializeComponent();
+/*			ImportDataSetToDB();
+*/			InitializeComponent();
 		}
 
 		private void ImportDataSetToDB()
@@ -38,7 +37,7 @@ namespace GroupProjectPRN212
 				context.Database.Migrate();
 
 				// Read CSV file
-				var lines = File.ReadAllLines(@"D:\Hoc_Ki_5\PRN212\Group_Project\GroupProject212\ImportCSVtoDB\Data\Euro_2024_Matches.csv");
+				var lines = File.ReadAllLines(@"D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\Data\Euro_2024_Matches.csv");
 
 				// Assuming the first line is the header
 				var header = lines[0].Split(',');
@@ -126,94 +125,94 @@ namespace GroupProjectPRN212
 
 		}
 
-        private void btn_Excel_Click(object sender, RoutedEventArgs e)
-        {
-            MatchRepo _repoMatch = new MatchRepo();
-            List<Match> listMatch = _repoMatch.GetAll();
+		private void btn_Excel_Click(object sender, RoutedEventArgs e)
+		{
+			MatchRepo _repoMatch = new MatchRepo();
+			List<Match> listMatch = _repoMatch.GetAll();
 
-            TeamRepo _teamRepo = new TeamRepo();
-            List<Team> listTeam = _teamRepo.GetAll();
+			TeamRepo _teamRepo = new TeamRepo();
+			List<Team> listTeam = _teamRepo.GetAll();
 
-            LocationRepo _locationRepo = new LocationRepo();
-            List<Location> listLocation = _locationRepo.GetAll();
+			LocationRepo _locationRepo = new LocationRepo();
+			List<Location> listLocation = _locationRepo.GetAll();
 
-            try
-            {
-                var saveFileDialog = new SaveFileDialog();
-                saveFileDialog.FileName = "MatchesEuroExport.xlsx";
-                saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+			try
+			{
+				var saveFileDialog = new SaveFileDialog();
+				saveFileDialog.FileName = "MatchesEuroExport.xlsx";
+				saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
 
-                if (saveFileDialog.ShowDialog() == true)
-                {
-                    string filePath = saveFileDialog.FileName;
+				if (saveFileDialog.ShowDialog() == true)
+				{
+					string filePath = saveFileDialog.FileName;
 
-                    var workbook = new XLWorkbook();
+					var workbook = new XLWorkbook();
 
-                    // match
-                    var worksheetMatches = workbook.Worksheets.Add("Matches Data");
-                    worksheetMatches.Cell(1, 1).Value = "Match ID";
-                    worksheetMatches.Cell(1, 2).Value = "Home Team";
-                    worksheetMatches.Cell(1, 3).Value = "Guest Team";
-                    worksheetMatches.Cell(1, 4).Value = "Location";
-                    worksheetMatches.Cell(1, 5).Value = "Attendance";
-                    worksheetMatches.Cell(1, 6).Value = "Home Team Goal";
-                    worksheetMatches.Cell(1, 7).Value = "Guest Team Goal";
+					// match
+					var worksheetMatches = workbook.Worksheets.Add("Matches Data");
+					worksheetMatches.Cell(1, 1).Value = "Match ID";
+					worksheetMatches.Cell(1, 2).Value = "Home Team";
+					worksheetMatches.Cell(1, 3).Value = "Guest Team";
+					worksheetMatches.Cell(1, 4).Value = "Location";
+					worksheetMatches.Cell(1, 5).Value = "Attendance";
+					worksheetMatches.Cell(1, 6).Value = "Home Team Goal";
+					worksheetMatches.Cell(1, 7).Value = "Guest Team Goal";
 
-                    int row = 2;
-                    foreach (var match in listMatch)
-                    {
-                        worksheetMatches.Cell(row, 1).Value = match.Id;
-                        worksheetMatches.Cell(row, 2).Value = match.TeamA.Name;
-                        worksheetMatches.Cell(row, 3).Value = match.TeamB.Name;
-                        worksheetMatches.Cell(row, 4).Value = match.Location.Name;
-                        worksheetMatches.Cell(row, 5).Value = match.Attendance;
-                        worksheetMatches.Cell(row, 6).Value = match.GoalTeamA;
-                        worksheetMatches.Cell(row, 7).Value = match.GoalTeamB;
+					int row = 2;
+					foreach (var match in listMatch)
+					{
+						worksheetMatches.Cell(row, 1).Value = match.Id;
+						worksheetMatches.Cell(row, 2).Value = match.TeamA.Name;
+						worksheetMatches.Cell(row, 3).Value = match.TeamB.Name;
+						worksheetMatches.Cell(row, 4).Value = match.Location.Name;
+						worksheetMatches.Cell(row, 5).Value = match.Attendance;
+						worksheetMatches.Cell(row, 6).Value = match.GoalTeamA;
+						worksheetMatches.Cell(row, 7).Value = match.GoalTeamB;
 
-                        row++;
-                    }
+						row++;
+					}
 
-                    // team
-                    var worksheetTeams = workbook.Worksheets.Add("Team Data");
-                    worksheetTeams.Cell(1, 1).Value = "Team ID";
-                    worksheetTeams.Cell(1, 2).Value = "Team Name";
+					// team
+					var worksheetTeams = workbook.Worksheets.Add("Team Data");
+					worksheetTeams.Cell(1, 1).Value = "Team ID";
+					worksheetTeams.Cell(1, 2).Value = "Team Name";
 
-                    int row2 = 2;
-                    foreach (var team in listTeam)
-                    {
-                        worksheetTeams.Cell(row2, 1).Value = team.Id;
-                        worksheetTeams.Cell(row2, 2).Value = team.Name;
+					int row2 = 2;
+					foreach (var team in listTeam)
+					{
+						worksheetTeams.Cell(row2, 1).Value = team.Id;
+						worksheetTeams.Cell(row2, 2).Value = team.Name;
 
-                        row2++;
-                    }
+						row2++;
+					}
 
-                    //location
-                    var worksheetLocation = workbook.Worksheets.Add("Stadium Data");
-                    worksheetLocation.Cell(1, 1).Value = "Stadium ID";
-                    worksheetLocation.Cell(1, 2).Value = "Stadium Name";
+					//location
+					var worksheetLocation = workbook.Worksheets.Add("Stadium Data");
+					worksheetLocation.Cell(1, 1).Value = "Stadium ID";
+					worksheetLocation.Cell(1, 2).Value = "Stadium Name";
 
-                    int row3 = 2;
-                    foreach (var location in listLocation)
-                    {
-                        worksheetLocation.Cell(row3, 1).Value = location.Id;
-                        worksheetLocation.Cell(row3, 2).Value = location.Name;
+					int row3 = 2;
+					foreach (var location in listLocation)
+					{
+						worksheetLocation.Cell(row3, 1).Value = location.Id;
+						worksheetLocation.Cell(row3, 2).Value = location.Name;
 
-                        row3++;
-                    }
+						row3++;
+					}
 
-                    workbook.SaveAs(filePath);
+					workbook.SaveAs(filePath);
 
-                    MessageBox.Show("Dữ liệu từ DataGrid đã được xuất ra file Excel thành công!");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
-            }
-        }
+					MessageBox.Show("Dữ liệu từ DataGrid đã được xuất ra file Excel thành công!");
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+			}
+		}
 
 
-        private void btn_Quit_Click(object sender, RoutedEventArgs e)
+		private void btn_Quit_Click(object sender, RoutedEventArgs e)
 		{
 			var result = MessageBox.Show("Do you want to quit?", "Quit?", MessageBoxButton.OKCancel, MessageBoxImage.Question);
 			if (result == MessageBoxResult.OK)

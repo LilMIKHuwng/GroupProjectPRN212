@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Repositories.Models;
 
-public class Match
+public partial class Match
 {
     public int Id { get; set; }
 

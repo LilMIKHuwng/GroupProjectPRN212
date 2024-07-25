@@ -85,7 +85,7 @@ namespace ViewEuroMatchManagerment
                 MessageBox.Show("Wrong format field", "Invalid input", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-            
+
 
             if (selectedMatch != null)
             {

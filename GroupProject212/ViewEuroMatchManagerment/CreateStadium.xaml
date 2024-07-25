@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ViewEuroMatchManagerment"
         mc:Ignorable="d"
         Title="CreateStadium" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,0,-37">
         <!-- Title -->
         <Label Content="Create Stadium"
                HorizontalAlignment="Center"
@@ -28,7 +28,7 @@
                  Margin="0,84,0,0"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
-                 Width="200"
+                 Width="286"
                  Background="White"
                  BorderBrush="Gray"
                  BorderThickness="1" />
@@ -37,7 +37,7 @@
         <Button x:Name="btnCreate"
                 Content="Create"
                 HorizontalAlignment="Left"
-                Margin="278,152,0,0"
+                Margin="276,190,0,0"
                 VerticalAlignment="Top"
                 Width="100"
                 Height="30"
@@ -51,7 +51,7 @@
         <Button x:Name="btnQuit"
                 Content="Quit"
                 HorizontalAlignment="Left"
-                Margin="418,152,0,0"
+                Margin="418,190,0,0"
                 VerticalAlignment="Top"
                 Width="100"
                 Height="30"
@@ -60,5 +60,22 @@
                 Foreground="White"
                 BorderBrush="DarkRed"
                 BorderThickness="2" />
+        <Button Content="Chọn ảnh" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Click="UploadButton_Click" Margin="487,121,0,0" Height="29" RenderTransformOrigin="1.25,0.417"/>
+        <Label Content="Stadium Image:"
+            HorizontalAlignment="Right"
+            Margin="0,121,548,0"
+            VerticalAlignment="Top"
+            FontWeight="Bold"
+            Foreground="DarkBlue" />
+        <TextBox x:Name="txtImgStadium"
+            HorizontalAlignment="Left"
+            Margin="257,121,0,0"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            Width="225"
+            Background="White"
+            BorderBrush="Gray"
+            BorderThickness="1" Height="29" />
+
     </Grid>
 </Window>

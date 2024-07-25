@@ -1,19 +1,12 @@
-﻿using Repositories.Models;
+﻿using GroupProjectPRN212;
+using Repositories.Models;
 using Repositories.Repo;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using ViewEuroMatchManagerment.Helper;
+using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
+
 
 namespace ViewEuroMatchManagerment
 {
@@ -24,12 +17,15 @@ namespace ViewEuroMatchManagerment
 	{
 		EuroMatchContext _context;
 		LocationRepo _stadium;
+		private ImgUpload _imgUpload;
 		int stadiumId;
 		public UpdateStadium(int stadiumId)
 		{
 			InitializeComponent();
-			_context = new EuroMatchContext();
-			_stadium = new	LocationRepo();
+            var app = ((App)Application.Current);
+            _imgUpload = new ImgUpload(app._firebaseEntities);
+            _context = new EuroMatchContext();
+			_stadium = new LocationRepo();
 			this.stadiumId = stadiumId;
 			LoadData();
 		}
@@ -68,14 +64,26 @@ namespace ViewEuroMatchManagerment
 
 			return true;
 		}
-		private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        public string _imageUrl;
+        private async void UploadButton_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image file (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                string filePath = openFileDialog.FileName;
+                txtImgStadium.Text = filePath;
+                _imageUrl = await _imgUpload.UploadFileImg(filePath);
+            }
+        }
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
 		{
 			if (ValidateInput())
 			{
 				var stadium = _context.Locations.Find(stadiumId);
 
 				stadium.Name = txtStadium.Text;
-
+				stadium.ImageStadium = _imageUrl;
 				_context.SaveChanges();
 				this.Close();
 				// Tải lại danh sách (tùy thuộc vào cách bạn quản lý danh sách sinh viên)
@@ -91,5 +99,7 @@ namespace ViewEuroMatchManagerment
 				this.Close();
 			}
 		}
-	}
+
+      
+    }
 }

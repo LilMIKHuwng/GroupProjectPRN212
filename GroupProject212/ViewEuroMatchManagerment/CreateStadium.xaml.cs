@@ -1,19 +1,11 @@
-﻿using Repositories.Models;
+﻿using GroupProjectPRN212;
+using Repositories.Models;
 using Repositories.Repo;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using ViewEuroMatchManagerment.Helper;
+using MessageBox = System.Windows.MessageBox;
+using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
 
 namespace ViewEuroMatchManagerment
 {
@@ -22,11 +14,14 @@ namespace ViewEuroMatchManagerment
 	/// </summary>
 	public partial class CreateStadium : Window
 	{
+		private readonly ImgUpload _imgUpload;
 		EuroMatchContext _context;
 		LocationRepo _stadium;
 		public CreateStadium()
 		{
 			InitializeComponent();
+			var app = ((App)Application.Current);
+			_imgUpload = new ImgUpload(app._firebaseEntities);
 			_context = new EuroMatchContext();
 			_stadium = new LocationRepo();
 		}
@@ -59,8 +54,19 @@ namespace ViewEuroMatchManagerment
 
 			return true;
 		}
-
-		private void btnCreate_Click(object sender, RoutedEventArgs e)
+        public string _imageUrl;
+        private async void UploadButton_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Image file (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                string filePath = openFileDialog.FileName;
+                txtImgStadium.Text = filePath;
+                _imageUrl = await _imgUpload.UploadFileImg(filePath);
+            }
+        }
+        private void btnCreate_Click(object sender, RoutedEventArgs e)
 		{
 			if (ValidateInput())
 			{
@@ -68,7 +74,8 @@ namespace ViewEuroMatchManagerment
 				var stadium = new Location()
 				{
 					Name = txtStadium.Text,
-				};
+					ImageStadium = _imageUrl
+                };
 				//B2: Tao repo
 				//B3: Save to database
 				_stadium.Add(stadium);

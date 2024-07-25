@@ -10,5 +10,7 @@ namespace ViewEuroMatchManagerment.ViewModel
 	{
 		public int Id { get; set; }
 		public string Stadium { get; set; }
-	}
+        public string ImageStadium { get; set; }
+
+    }
 }

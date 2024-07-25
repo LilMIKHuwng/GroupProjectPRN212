@@ -16,13 +16,13 @@ namespace Repositories.Repo
 			_context = new();
 			return _context.Locations.ToList();
 		}
-        public List<Location> Search(string LocationName)
-        {
-            _context = new();
+		public List<Location> Search(string LocationName)
+		{
+			_context = new();
 
-            return _context.Locations.Where(t => t.Name.Contains(LocationName)).ToList();
-        }
-        public Location GetById(int id)
+			return _context.Locations.Where(t => t.Name.Contains(LocationName)).ToList();
+		}
+		public Location GetById(int id)
 		{
 			_context = new();
 			return _context.Locations.Find(id);

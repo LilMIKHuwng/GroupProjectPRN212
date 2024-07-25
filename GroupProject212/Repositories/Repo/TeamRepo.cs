@@ -23,12 +23,12 @@ namespace Repositories.Repo
 			_context = new();
 			return _context.Teams.Find(id);
 		}
-        public List<Team> Search(string TeamTitle)
-        {
-            _context = new();
-            return _context.Teams.Where(t => t.Name.Contains(TeamTitle)).ToList();
-        }
-        public void Add(Team team)
+		public List<Team> Search(string TeamTitle)
+		{
+			_context = new();
+			return _context.Teams.Where(t => t.Name.Contains(TeamTitle)).ToList();
+		}
+		public void Add(Team team)
 		{
 			_context = new();
 			_context.Teams.Add(team);

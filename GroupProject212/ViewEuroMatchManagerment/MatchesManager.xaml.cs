@@ -92,14 +92,14 @@ namespace ViewEuroMatchManagerment
             LoadMatchesGrid();
         }
 
-		private void QuitButton_Click(object sender, RoutedEventArgs e)
-		{
-			var result = MessageBox.Show("Do you want to quit?", "Quit?", MessageBoxButton.OKCancel, MessageBoxImage.Question);
-			if (result == MessageBoxResult.OK)
-			{
-				this.Close();
-			}
-		}
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("Do you want to quit?", "Quit?", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+            if (result == MessageBoxResult.OK)
+            {
+                this.Close();
+            }
+        }
 
         private void ExportButton_Click(object sender, RoutedEventArgs e)
         {
@@ -153,9 +153,9 @@ namespace ViewEuroMatchManagerment
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            string homeTeam = HomeTeamTextBox.Text;  
+            string homeTeam = HomeTeamTextBox.Text;
             string GuestTeam = GuestTeamTextBox.Text;
-            List<Match> listSearchMatches= _repoMatch.Search(homeTeam, GuestTeam);
+            List<Match> listSearchMatches = _repoMatch.Search(homeTeam, GuestTeam);
             ListMatchesDataGrid.ItemsSource = null;
             ListMatchesDataGrid.ItemsSource = listSearchMatches;
         }

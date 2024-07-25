@@ -1,0 +1,6 @@
+D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\obj\Debug\net8.0\ImportCSVtoDB.csproj.AssemblyReference.cache
+D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\obj\Debug\net8.0\ImportCSVtoDB.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\obj\Debug\net8.0\ImportCSVtoDB.AssemblyInfoInputs.cache
+D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\obj\Debug\net8.0\ImportCSVtoDB.AssemblyInfo.cs
+D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\obj\Debug\net8.0\ImportCSVtoDB.csproj.CoreCompileInputs.cache
+D:\FPTU\Ky5\PRN211\GroupProjectPRN212\GroupProject212\ImportCSVtoDB\obj\Debug\net8.0\ImportCSVtoDB.sourcelink.json

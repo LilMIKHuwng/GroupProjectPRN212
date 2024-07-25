@@ -26,22 +26,22 @@ namespace Repositories.Repo
         public List<Match> Search(string HomeTeam, string GuestTeam)
         {
             _context = new();
-    
+
             var listMatches = _context.Matches.AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(HomeTeam))
             {
                 listMatches = listMatches.Where(s => s.TeamA.Name.Contains(HomeTeam));
-                listMatches = listMatches.Include("TeamA");
+                listMatches = listMatches.Include("TeamA").Include("Location");
             }
 
             if (!string.IsNullOrWhiteSpace(GuestTeam))
             {
                 listMatches = listMatches.Where(s => s.TeamB.Name.Contains(GuestTeam));
-                listMatches = listMatches.Include("TeamB");
+                listMatches = listMatches.Include("TeamB").Include("Location");
             }
 
-            return listMatches.Include("TeamA").Include("TeamB").ToList();
+            return listMatches.Include("TeamA").Include("TeamB").Include("Location").ToList();
         }
         public Match GetById(int id)
         {

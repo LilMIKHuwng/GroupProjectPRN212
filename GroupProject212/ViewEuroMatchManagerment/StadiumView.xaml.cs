@@ -49,7 +49,8 @@ namespace ViewEuroMatchManagerment
 			{
 				Id = x.Id,
 				Stadium = x.Name,
-			}).ToList();
+                ImageStadium = x.ImageStadium
+            }).ToList();
 
 			dtgStadium.AutoGenerateColumns = true;
 			dtgStadium.ItemsSource = anonymousList;
@@ -105,52 +106,52 @@ namespace ViewEuroMatchManagerment
 			}
 		}
 
-        private void btnExport_Click(object sender, RoutedEventArgs e)
-        {
-            LocationRepo _locationRepo = new LocationRepo();
-            List<Location> listLocation = _locationRepo.GetAll();
+		private void btnExport_Click(object sender, RoutedEventArgs e)
+		{
+			LocationRepo _locationRepo = new LocationRepo();
+			List<Location> listLocation = _locationRepo.GetAll();
 
-            try
-            {
-                var saveFileDialog = new SaveFileDialog();
-                saveFileDialog.FileName = "StadiumExport.xlsx";
-                saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+			try
+			{
+				var saveFileDialog = new SaveFileDialog();
+				saveFileDialog.FileName = "StadiumExport.xlsx";
+				saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
 
-                if (saveFileDialog.ShowDialog() == true)
-                {
-                    string filePath = saveFileDialog.FileName;
+				if (saveFileDialog.ShowDialog() == true)
+				{
+					string filePath = saveFileDialog.FileName;
 
-                    var workbook = new XLWorkbook();
+					var workbook = new XLWorkbook();
 
-                    //location
-                    var worksheetLocation = workbook.Worksheets.Add("Stadium Data");
-                    worksheetLocation.Cell(1, 1).Value = "Stadium ID";
-                    worksheetLocation.Cell(1, 2).Value = "Stadium Name";
+					//location
+					var worksheetLocation = workbook.Worksheets.Add("Stadium Data");
+					worksheetLocation.Cell(1, 1).Value = "Stadium ID";
+					worksheetLocation.Cell(1, 2).Value = "Stadium Name";
 
-                    int row3 = 2;
-                    foreach (var location in listLocation)
-                    {
-                        worksheetLocation.Cell(row3, 1).Value = location.Id;
-                        worksheetLocation.Cell(row3, 2).Value = location.Name;
+					int row3 = 2;
+					foreach (var location in listLocation)
+					{
+						worksheetLocation.Cell(row3, 1).Value = location.Id;
+						worksheetLocation.Cell(row3, 2).Value = location.Name;
 
-                        row3++;
-                    }
+						row3++;
+					}
 
-                    workbook.SaveAs(filePath);
+					workbook.SaveAs(filePath);
 
-                    MessageBox.Show("Dữ liệu từ DataGrid đã được xuất ra file Excel thành công!");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
-            }
-        }
+					MessageBox.Show("Dữ liệu từ DataGrid đã được xuất ra file Excel thành công!");
+				}
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
+			}
+		}
 
-        private void SearchButton_Click(object sender, RoutedEventArgs e)
-        {
-            string locationName = LocationNameTextBox.Text;
-            List<Location> listSearchTeams = _stadiumRepo.Search(locationName);
+		private void SearchButton_Click(object sender, RoutedEventArgs e)
+		{
+			string locationName = LocationNameTextBox.Text;
+			List<Location> listSearchTeams = _stadiumRepo.Search(locationName);
 			List<LocationVm> listVM = new List<LocationVm>();
 			foreach (Location location in listSearchTeams)
 			{
@@ -159,10 +160,10 @@ namespace ViewEuroMatchManagerment
 					Id = location.Id,
 					Stadium = location.Name
 				};
-                listVM.Add(locationVm);
-            }
-            dtgStadium.ItemsSource = null;
-            dtgStadium.ItemsSource = listVM;
-        }
-    }
+				listVM.Add(locationVm);
+			}
+			dtgStadium.ItemsSource = null;
+			dtgStadium.ItemsSource = listVM;
+		}
+	}
 }

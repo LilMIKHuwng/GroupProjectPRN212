@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 
 namespace Repositories.Models;
-
-public class Team
+public partial class Team
 {
     public int Id { get; set; }
 
