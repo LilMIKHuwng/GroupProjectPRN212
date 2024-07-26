@@ -23,10 +23,12 @@ namespace GroupProjectPRN212
 	/// </summary>
 	public partial class MainWindow : Window
 	{
+		TeamRepo _teamRepo = new();
+		LocationRepo _locationRepo = new();
+		MatchRepo _matchRepo = new();
 		public MainWindow()
 		{
-/*			ImportDataSetToDB();
-*/			InitializeComponent();
+			InitializeComponent();
 		}
 
 		private void ImportDataSetToDB()
@@ -101,8 +103,13 @@ namespace GroupProjectPRN212
 				context.SaveChanges();
 			}
 		}
+        private void btn_Import_Click(object sender, RoutedEventArgs e)
+        {
+			ImportDataSetToDB();
+            MessageBox.Show("Import Success", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
-		private void btn_Team_Click(object sender, RoutedEventArgs e)
+        }
+        private void btn_Team_Click(object sender, RoutedEventArgs e)
 		{
 			TeamView team = new TeamView();
 			team.ShowDialog();
@@ -220,5 +227,18 @@ namespace GroupProjectPRN212
 				this.Close();
 			}
 		}
-	}
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+			e.Cancel = true;
+			this.Hide();
+        }
+
+        private void btn_Clear_Click(object sender, RoutedEventArgs e)
+        {
+			_matchRepo.DeleteAll();
+			_locationRepo.DeleteAll();
+			_teamRepo.DeleteAll();
+        }
+    }
 }

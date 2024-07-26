@@ -85,7 +85,7 @@ namespace ViewEuroMatchManagerment {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ViewEuroMatchManagerment;component/updateteam.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ViewEuroMatchManagerment;V1.0.0.0;component/updateteam.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UpdateTeam.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

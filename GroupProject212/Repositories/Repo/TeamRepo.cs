@@ -17,8 +17,16 @@ namespace Repositories.Repo
 			_context = new();
 			return _context.Teams.ToList();
 		}
-
-		public Team GetById(int id)
+        public void DeleteAll()
+        {
+            using (var _context = new EuroMatchContext())
+            {
+                var allLocations = _context.Teams.ToList();
+                _context.Teams.RemoveRange(allLocations);
+                _context.SaveChanges();
+            }
+        }
+        public Team GetById(int id)
 		{
 			_context = new();
 			return _context.Teams.Find(id);

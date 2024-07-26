@@ -34,7 +34,8 @@ namespace ViewEuroMatchManagerment
 			var stadium = _stadium.GetById(stadiumId);
 			txtID.Text = stadium.Id.ToString();
 			txtStadium.Text = stadium.Name.ToString();
-		}
+			txtImgStadium.Text = stadium.ImageStadium.ToString();
+        }
 		private bool ValidateInput()
 		{
 			if (txtStadium.Text == "")

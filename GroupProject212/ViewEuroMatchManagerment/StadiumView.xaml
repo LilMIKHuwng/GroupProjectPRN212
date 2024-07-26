@@ -136,5 +136,10 @@
                     BorderBrush="#E64A19"
                     BorderThickness="2" />
         </StackPanel>
+        <Button x:Name="ClearDataButton" Content="Clear Data"
+Background="#4CAF50"
+Foreground="White"
+FontSize="16"
+Click="btn_Clear_Click" RenderTransformOrigin="0.531,-0.769" Margin="10,247,10,10" Grid.Row="2" Grid.Column="1"/>
     </Grid>
 </Window>

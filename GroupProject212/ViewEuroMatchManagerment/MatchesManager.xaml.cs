@@ -159,5 +159,11 @@ namespace ViewEuroMatchManagerment
             ListMatchesDataGrid.ItemsSource = null;
             ListMatchesDataGrid.ItemsSource = listSearchMatches;
         }
+
+        private void btn_Clear_Click(object sender, RoutedEventArgs e)
+        {
+            _repoMatch.DeleteAll();
+            LoadMatchesGrid();
+        }
     }
 }

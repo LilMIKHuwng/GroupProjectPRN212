@@ -168,5 +168,11 @@ namespace ViewEuroMatchManagerment
             dtgTeam.ItemsSource = listVM;
 
         }
+
+        private void btn_Clear_Click(object sender, RoutedEventArgs e)
+        {
+            _teamRepo.DeleteAll();
+            LoadDataToDataGridView();
+        }
     }
 }

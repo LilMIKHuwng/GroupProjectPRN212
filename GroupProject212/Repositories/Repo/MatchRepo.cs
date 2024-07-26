@@ -22,7 +22,15 @@ namespace Repositories.Repo
                 .ToList();
         }
 
-
+        public void DeleteAll()
+        {
+            using (var _context = new EuroMatchContext())
+            {
+                var allLocations = _context.Matches.ToList();
+                _context.Matches.RemoveRange(allLocations);
+                _context.SaveChanges();
+            }
+        }
         public List<Match> Search(string HomeTeam, string GuestTeam)
         {
             _context = new();

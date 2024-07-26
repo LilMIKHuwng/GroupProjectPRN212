@@ -10,8 +10,16 @@ namespace Repositories.Repo
 	public class LocationRepo
 	{
 		private EuroMatchContext _context;
-
-		public List<Location> GetAll()
+        public void DeleteAll()
+        {
+            using (var _context = new EuroMatchContext())
+            {
+                var allLocations = _context.Locations.ToList();
+                _context.Locations.RemoveRange(allLocations);
+                _context.SaveChanges();
+            }
+        }
+        public List<Location> GetAll()
 		{
 			_context = new();
 			return _context.Locations.ToList();

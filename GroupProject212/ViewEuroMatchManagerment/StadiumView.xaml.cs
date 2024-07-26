@@ -165,5 +165,11 @@ namespace ViewEuroMatchManagerment
 			dtgStadium.ItemsSource = null;
 			dtgStadium.ItemsSource = listVM;
 		}
-	}
+
+        private void btn_Clear_Click(object sender, RoutedEventArgs e)
+        {
+            _stadiumRepo.DeleteAll();
+            LoadDataToDataGridView();
+        }
+    }
 }

@@ -141,7 +141,7 @@ namespace ViewEuroMatchManagerment {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ViewEuroMatchManagerment;component/matchesdetail.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ViewEuroMatchManagerment;V1.0.0.0;component/matchesdetail.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MatchesDetail.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
